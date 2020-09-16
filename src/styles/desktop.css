@@ -1,0 +1,41 @@
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-bottom: 140px;
+}
+
+.container--header {
+  grid-template-columns: 1fr 1fr;
+}
+
+.header--right {
+  border-top: none;
+  padding-top: 0px;
+}
+
+.header--right .text {
+  margin-right: 10px;
+}
+
+.main {
+  margin-top: -120px;
+}
+
+.stats--main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+.stats--overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+.overview__title {
+  grid-column: 1 / 5;
+}

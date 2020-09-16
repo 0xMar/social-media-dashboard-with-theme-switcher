@@ -1,0 +1,29 @@
+.container--header {
+  grid-template-columns: 1fr 1fr;
+}
+
+.header--right {
+  justify-content: flex-end;
+  border-top: none;
+  padding-top: 0px;
+}
+
+.header--right .text {
+  margin-right: 10px;
+}
+
+.stats--main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.stats--overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.overview__title {
+  grid-column: 1 / 3;
+}
