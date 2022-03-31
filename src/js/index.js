@@ -90,7 +90,7 @@ main_content.innerHTML += main_card_content.join('');
 const overview_content = document.getElementById('stats__overview');
 const overview_card_content = data.map(
   (data) =>
-    `<article class="card__stats" id="stats__overview">
+    `<article class="card__stats">
         <span class="stats__description">${
           data.social_network === 'facebook'
             ? 'page views'
@@ -121,7 +121,7 @@ const overview_card_content = data.map(
     }</span>
         </div>
      </article>
-     <article class="card__stats" id="stats__overview">
+     <article class="card__stats">
         <span class="stats__description">Likes</span>
         <img class="stats__icon" src="${data.icon}" alt="social network icon" />
         <span class="stats__total">${data.today.likes}</span>
