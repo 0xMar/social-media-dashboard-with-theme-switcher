@@ -11,6 +11,7 @@
 }
 
 body {
+  min-width: 375px;
   font-family: "Inter", sans-serif;
   background-color: var(--background-color);
 

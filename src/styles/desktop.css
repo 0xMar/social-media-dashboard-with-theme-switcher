@@ -39,3 +39,20 @@ body {
 .overview__title {
   grid-column: 1 / 5;
 }
+
+@media (min-width: 1440px) {
+  .header {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .main {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .footer {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
