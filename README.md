@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://social-media-dashboard-amber.vercel.app/">
+    <a href="https://github.com/0xMar/social-media-dashboard-with-theme-switcher">
       Solution
     </a>
     <span> | </span>
@@ -49,5 +49,5 @@ This application/site was created as a submission to a [FrontendMentor](https://
 
 ## Contact
 
-- GitHub [@v0xVic](https://github.com/0xMar)
+- GitHub [@0xVic](https://github.com/0xMar)
 - Twitter [@0xVic](https://twitter.com/0xMar_)
