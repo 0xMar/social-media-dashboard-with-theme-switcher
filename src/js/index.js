@@ -1,7 +1,7 @@
 const data = [
   {
     social_network: "facebook",
-    account_name: "@victor",
+    account_name: "@Vic",
     followers: 1987,
     today: {
       followers: 12,
@@ -14,7 +14,7 @@ const data = [
   },
   {
     social_network: "twitter",
-    account_name: "@victor",
+    account_name: "@Vic",
     followers: 1044,
     today: {
       followers: 99,
@@ -27,7 +27,7 @@ const data = [
   },
   {
     social_network: "instagram",
-    account_name: "@victor",
+    account_name: "@Vic",
     followers: 11,
     today: {
       followers: 1099,
@@ -40,7 +40,7 @@ const data = [
   },
   {
     social_network: "youtube",
-    account_name: "victor",
+    account_name: "Vic",
     followers: 8239,
     today: {
       followers: 144,
