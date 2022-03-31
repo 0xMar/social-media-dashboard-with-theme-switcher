@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://social-media-dashboard-amber.vercel.app/">
       Solution
     </a>
     <span> | </span>
@@ -47,9 +47,7 @@
 
 This application/site was created as a submission to a [FrontendMentor](https://www.frontendmentor.io/challenges) challenge. The [challenge](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H) was to build an application to complete the given user stories.
 
-
 ## Contact
 
-- Website [victormartin.com.ar](https://www.victormartin.com.ar)
-- GitHub [@victormartinortiz](https://github.com/victormartinortiz)
-- Twitter [@OrtizVictorM](https://twitter.com/OrtizVictorM)
+- GitHub [@v0xVic](https://github.com/0xMar)
+- Twitter [@0xVic](https://twitter.com/0xMar_)
