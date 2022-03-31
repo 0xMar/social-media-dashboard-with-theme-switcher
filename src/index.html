@@ -1,72 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light" />
-    <link
-      rel="shortcut icon"
-      href="assets/favicon-32x32.png"
-      type="image/x-icon"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Social Media Dashboard</title>
-    <link
-      rel="stylesheet"
-      href="styles/dark.css"
-      media="(prefers-color-scheme: dark)"
-      id="theme-dark"
-    />
-    <link
-      rel="stylesheet"
-      href="styles/light.css"
-      media="(prefers-color-scheme: light)"
-      id="theme-light"
-    />
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/main.css" />
 
-    <link
-      rel="stylesheet"
-      href="styles/tablet.css"
-      media="screen and (min-width: 768px)"
-    />
-    <link
-      rel="stylesheet"
-      href="styles/desktop.css"
-      media="screen and (min-width: 1024px)"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="container container--header">
-        <div class="header--left">
-          <span class="header__title">Social Media Dashboard</span>
-          <span class="header__subtitle">Total Followers: 23,004</span>
-        </div>
-        <div class="header--right">
-          <span class="text">Dark Mode</span>
-          <input type="checkbox" class="checkbox" id="checkbox" />
-          <label for="checkbox" class="switch"></label>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Social Media Dashboard</title>
+  <link rel="stylesheet" href="styles/dark.css" media="(prefers-color-scheme: dark)" id="theme-dark" />
+  <link rel="stylesheet" href="styles/light.css" media="(prefers-color-scheme: light)" id="theme-light" />
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/main.css" />
+
+  <link rel="stylesheet" href="styles/tablet.css" media="screen and (min-width: 768px)" />
+  <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 1024px)" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container container--header">
+      <div class="header--left">
+        <h1 class="header__title">Social Media Dashboard</h1>
+        <h2 class="header__subtitle">Total Followers: 23,004</h2>
       </div>
-    </header>
-    <main class="main">
-      <div class="container container--main">
-        <section class="stats stats--main" id="stats--main"></section>
-        <section class="stats stats--overview" id="stats--overview">
-          <span class="overview__title">overview - today</span>
-        </section>
+      <div class="header--right">
+        <span class="text">Dark Mode</span>
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="switch"></label>
       </div>
-    </main>
-    <footer class="footer">
-      <div class="container container--footer">
-          <span class="text">Vic @ frontendmentor.io</span>
-      </div>
-    </footer>
-  </body>
-  <script src="js/index.js"></script>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container container--main">
+      <section class="stats stats--main" id="stats__main"></section>
+      <section class="stats stats--overview" id="stats__overview">
+        <h2 class="overview__title">overview - today</h2>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container container--footer">
+      <span class="text">Vic @ frontendmentor.io</span>
+    </div>
+  </footer>
+</body>
+<script src="js/index.js"></script>
+
 </html>
